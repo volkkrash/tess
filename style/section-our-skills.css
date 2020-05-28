@@ -1,0 +1,30 @@
+.section-our-skills {
+  padding-top: 3rem;
+}
+.section-our-skills .container {
+  justify-content: center;
+}
+.cards-our-skills {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.cards-our-skills .card-item {
+  color: var(--primary-text-color);
+  display: flex;
+  width: 47%;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 10px;
+  margin-bottom: 3rem;
+}
+.cards-our-skills .card-body {
+  margin-left: 20px;
+}
+.cards-our-skills .card-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.cards-our-skills .card-description {
+  font-size: 1rem;
+}

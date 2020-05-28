@@ -1,0 +1,29 @@
+.section-achievements .container {
+  flex-direction: column;
+  padding: 2rem 200px 1rem;
+}
+.section-achievements .section-bottom {
+
+}
+.section-achievements .section-img {
+  display: flex;
+  justify-content: center;
+}
+.section-achievements .section-top {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.section-achievements .section-img .img-item {
+  height: 100px;
+  margin: 0 50px;
+}
+.section-achievements .section-bg {
+  background: rgba(40, 54, 112, .2);
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}

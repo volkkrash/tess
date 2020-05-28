@@ -1,0 +1,107 @@
+.header {
+    height: 100%;
+    max-height: 350px;
+    padding-top: 3rem;
+    border-bottom: 1px solid var(--primary-color);
+    box-shadow: 0 0 10px rgba(40, 54, 112, 0.5);
+}
+.header .container {
+    flex-direction: column;
+    padding: 0 10px;
+}
+.header-top {
+    display: flex;
+}
+.header-logo {
+    width: 20%;
+}
+.logo {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+.header-content {
+    display: flex;
+    position: relative;
+    margin-left: 85px;
+}
+.header-title {
+    font-size: 3rem;
+    color: var(--primary-text-color);
+    line-height: 1.2;
+}
+
+.phones {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.phones .phone-icon {
+    max-height: 46px;
+}
+.phones-container {
+    display: flex;
+    flex-direction: column;
+    color: var(--primary-text-color);
+    margin-left: 15px;
+}
+.phones-container .phone {
+    text-align: right;
+}
+
+.header-nav {
+    height: 50px;
+}
+.header-nav.fixed {
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--body-bg-color);
+    z-index: 999;
+    border-bottom: 1px solid var(--primary-color);
+    box-shadow: 0 0 10px rgba(40, 54, 112, 0.5);
+}
+.header-nav.fixed .nav-list {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header-nav .nav-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: var(--primary-text-color);
+    min-height: 50px;
+}
+.header-nav .nav-item a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.header-nav .nav-item span {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.nav-item.active span {
+    border-bottom: 2px solid var(--primary-color);
+}
+.nav-item:hover {
+    color: #e53600;
+}
+
+.nav-item-collapse {
+    position: absolute;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+}
+.nav-item-collapse .nav-list-in {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

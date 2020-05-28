@@ -1,0 +1,38 @@
+@media screen and (max-width: 1000px) {
+  body {
+    font-size: 15px;
+  }
+  .header-title {
+    font-size: 2rem;
+    color: var(--primary-text-color);
+    line-height: 1.2;
+}
+.cards-our-skills .card-title {
+  font-size: 1.5rem;
+}
+.header-nav .nav-list {
+  font-size: 1rem;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-content {
+    text-align: center;
+    flex-direction: column;
+  }
+  .header .phones {
+    position: static;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 670px) {
+  .header-nav {
+    display: none;
+  }
+}

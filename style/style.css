@@ -1,0 +1,13 @@
+@import './vars.css';
+@import './fonts.css';
+@import './default.css';
+@import './header.css';
+@import './section-our-skills.css';
+@import './section-our-works.css';
+@import './section-to-order.css';
+@import './section-competence.css';
+@import './section-achievements.css';
+
+@import './footer.css';
+
+@import './media.css';
