@@ -1,0 +1,16 @@
+.section-main-slider {
+  padding: 100px 0;
+}
+.section-main-slider .carousel-control-prev-icon {
+  background-image: url(../img/slider-arrow.png);
+}
+.section-main-slider .carousel-control-next-icon {
+  background-image: url(../img/slider-arrow.png);
+  transform: rotate(180deg);
+}
+.section-main-slider .carousel-control-prev {
+  left: -100px;
+}
+.section-main-slider .carousel-control-next {
+  right: -100px;
+}
