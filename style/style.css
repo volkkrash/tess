@@ -7,6 +7,39 @@
 
 @import './media.css';
 
+
+form input, textarea {
+  background-color: transparent;
+  border: 4px solid #fff;
+  color: #fff;
+  margin: .3rem;
+  font-size: 20px;
+  padding: 5px;
+  outline: none;
+}
+form input::placeholder, textarea::placeholder {
+  color: #fff;
+}
+form input {
+  width: 100%;
+  height: 50px;
+}
+form textarea {
+  width: 100%;
+  margin: 0.3rem;
+  display: block;
+  resize: none;
+}
+form .button {
+  border: none;
+  border-radius: 10px;
+  padding: 12px 70px 10px;
+  background-color: #ffffff;
+  color: #414d81;
+  font-family: 'Muller', sans-serif;
+  font-size: 2rem;
+}
+
 .modal {
   display: none;
   top: 0;
@@ -45,10 +78,6 @@ label.required_field:after {
   position: absolute;
   top: 0;
   left: -10px;
-}
-.form-field input, .form-field textarea {
-  width: 100%;
-
 }
 .modal form button {
   margin-left: 50%;
