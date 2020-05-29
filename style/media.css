@@ -23,16 +23,33 @@
   .header-content {
     text-align: center;
     flex-direction: column;
+    margin-left: 0;
   }
   .header .phones {
     position: static;
     justify-content: center;
   }
-
+  .carousel-control-prev, .carousel-control-next {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 670px) {
   .header-nav {
     display: none;
+  }
+  .header .phones {
+    padding: 10px 0;
+  }
+  .header-title {
+    padding: 10px 0;
+  }
+  .section-main-slider {
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 460px) {
+  .header-title {
+    font-size: 20px;
   }
 }
