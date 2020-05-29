@@ -46,7 +46,7 @@ label.required_field:after {
   top: 0;
   left: -10px;
 }
-.form-field input {
+.form-field input, .form-field textarea {
   width: 100%;
 
 }
